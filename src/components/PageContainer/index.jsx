@@ -1,10 +1,11 @@
-import { Box, Rating, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
+import CustomizedRating from "../Rating";
 
 const PageContainer = ({ children }) => {
   return (
     <>
       <Box component="main"></Box>
-      <Rating />
+      <CustomizedRating />
     </>
   );
 };
