@@ -1,7 +1,7 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import CustomizedRating from "../Rating";
 
-const PageContainer = ({ children }) => {
+const PageContainer = () => {
   return (
     <>
       <Box component="main"></Box>
